@@ -76,8 +76,8 @@ if ( isset( $_ENV["CLEARDB_SSL"] ) && 'ON' == $_ENV["CLEARDB_SSL"] ) {
 
 // Set AWS settings
 if (isset( $_ENV["AWS_ACCESS_KEY_ID"] ) && isset( $_ENV["AWS_SECRET_ACCESS_KEY"])){
-	define('AWS_ACCESS_KEY_ID' $_ENV["AWS_ACCESS_KEY_ID"]);
-	define('AWS_SECRET_ACCESS_KEY' $_ENV["AWS_SECRET_ACCESS_KEY"]);
+	define('AWS_ACCESS_KEY_ID', $_ENV["AWS_ACCESS_KEY_ID"]);
+	define('AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]);
 }
 
 /**#@-*/
