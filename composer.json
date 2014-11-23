@@ -5,6 +5,8 @@
         "WordPress/WordPress": "*",
         "wpackagist-plugin/jetpack": "~3.1",
         "wpackagist-plugin/wpro": "~1.0",
+	"wpackagist-plugin/akismet": "~3.0.3",
+        "wpackagist-plugin/redirection": "~2.3.11",
 	"wpackagist-plugin/wordpress-importer": "~0.6.1",
         "wpackagist-plugin/authy-two-factor-authentication": "~2.5"
     },
